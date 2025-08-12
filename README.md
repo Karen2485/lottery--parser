@@ -1,3 +1,6 @@
+![Node version](https://img.shields.io/badge/node-v18%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 # Lottery Parser (Lottery Archive Scraper)
 
 Парсер архива лотереи на Node.js с использованием Puppeteer.  

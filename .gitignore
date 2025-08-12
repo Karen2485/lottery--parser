@@ -1,0 +1,7 @@
+node_modules/
+*.log
+.DS_Store
+.env
+# игнорируем CSV с реальными выгрузками, но оставим пример
+data/*.csv
+!data/results_sample.csv

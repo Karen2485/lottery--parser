@@ -1,9 +1,6 @@
-```markdown
-![Node version](https://img.shields.io/badge/node-v18%2B-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-# Lottery Parser (Stoloto Archive Scraper)
+# Lottery Parser (Lottery Archive Scraper)
 
-Парсер архива лотереи Stoloto на Node.js с использованием Puppeteer.  
+Парсер архива лотереи на Node.js с использованием Puppeteer.  
 Скрипт прокручивает страницу до указанной даты и сохраняет данные тиража в CSV.
 
 ![demo](docs/demo.gif)

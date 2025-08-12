@@ -1,0 +1,21 @@
+```markdown
+![Node version](https://img.shields.io/badge/node-v18%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+# Lottery Parser (Stoloto Archive Scraper)
+
+Парсер архива лотереи Stoloto на Node.js с использованием Puppeteer.  
+Скрипт прокручивает страницу до указанной даты и сохраняет данные тиража в CSV.
+
+![demo](docs/demo.gif)
+
+## Возможности
+- Ввод даты (например `2 августа 2025`)
+- Сбор: дата, тираж, числа
+- Экспорт: `data/results_YYYYMMDD.csv`
+
+## Установка и запуск
+```bash
+git clone https://github.com/Karen2485/lottery--parser.git
+cd lottery--parser
+npm install
+node parser.js
